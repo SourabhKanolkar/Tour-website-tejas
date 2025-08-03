@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+.partners-page-wrapper {
+    width: 100%;
+}
+
+.partners-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.slider-section {
+    margin-bottom: 80px; /* Space between the two carousels */
+}
+
+/* Styling for the titles "Associated With" and "Our Partners" */
+.slider-title {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: #3a2d32; /* Dark, warm purple/brown color */
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+/* Styling for each individual slide */
+.logo-slide {
+    display: flex !important; /* Use !important to override slick's default */
+    justify-content: center;
+    align-items: center;
+    height: 160px; /* Gives a consistent height to all slides */
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.logo-slide img {
+    max-width: 100%;
+    max-height: 120px; /* Control logo height */
+    object-fit: contain; /* Ensures logo is scaled correctly */
+}
+
+/* Special styling for the Maldives logo background */
+.logo-slide.maldives-logo {
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 15px; /* Rounded corners */
+}
+
+
+/* --- Custom Slick Slider Styles --- */
+
+/* Customizing the navigation arrows */
+.slick-prev,
+.slick-next {
+    width: 30px;
+    height: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick'; /* This is the font used by the library */
+    font-size: 24px;
+    line-height: 1;
+    color: #e0e0e0; /* Very light grey for a subtle look */
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+    color: #888; /* Darken arrow on hover */
+}
+
+.slick-prev { left: -40px; }
+.slick-next { right: -40px; }
+
+
+/* Customizing the pagination dots */
+.slick-dots {
+    bottom: -50px; /* Position dots below the slider images */
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #d1d1d1; /* Inactive dot color */
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #333; /* Active dot color */
+    opacity: 1;
+}
+
+/* Dark footer bar at the bottom */
+.footer-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #2d2033; /* Dark purple color from footer */
+    margin-top: 40px; /* Space above the bar */
+}

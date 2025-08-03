@@ -1,0 +1,48 @@
+#home-section{
+   padding: 140px 20px 10px 20px;
+   /* padding: 100px 0px 100px 0px; */
+   padding-bottom: 70px;
+   background: url("https://defelizvacation.com/wp-content/uploads/2018/12/banner-img-5.jpg");
+
+}
+.playfair-font{
+    font-family: "Playfair Display", serif;
+   
+   
+  }
+ @media only screen and (min-width: 992px){
+  .home-heading-2{
+   font-size: 75px;
+  }
+  .home-secound-title{
+    font-size: 50px;
+  }
+ }
+ @media only screen and (max-width: 480px){
+  .home-secound-p{
+    text-align: -webkit-center;
+  }
+  .btn-home-secound-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+ }
+ .home-cta-btn{
+   padding: 20px 30px 20px 30px;
+   background: #02010100;
+   border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF45;
+
+ }
+ .home-cta-btn:hover{
+   background: transparent;
+   border: 2px solid rgb(247, 204, 17);
+
+ }
+ /* above is for home -page 1st section */
+
+ /* below is for home-page 2nd section */
+ #home-secound-section{
+   padding: 80px 20px 10px 20px;
+ }
