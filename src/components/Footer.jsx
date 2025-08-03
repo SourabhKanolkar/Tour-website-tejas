@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../css/Footer.css';
 import logo from '../assets/rishlogo.png'; // Your logo file
 import razorpayLogo from '../assets/razorpay-logo.png';
 import axisBankLogo from '../assets/axis-bank-logo.png';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './GalleryCTA.css';
+import '../css/GalleryCTA.css';
 import canyonImage from '../assets/canyon-background.webp'; // Import your background image
 
 const GalleryCTA = () => {
