@@ -1,16 +1,17 @@
 import React from 'react'
 import logo from "../assets/rishlogo.png"
-
+import { Link } from 'react-router-dom';
+import AboutUs from './AboutUs';
 export default function Navbar() {
   return (
    <>
-   <nav class="navbar navbar-expand-lg  bg-body-tertiary fixed-top">
-  <div class="container-fluid">
-  <a class="navbar-brand" href="#">
+   <nav className="navbar navbar-expand-lg  bg-body-tertiary fixed-top">
+  <div className="container-fluid">
+  <a className="navbar-brand" href="#">
       <img src={logo} alt="Bootstrap" height="50px" />
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
@@ -22,9 +23,16 @@ export default function Navbar() {
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>About Us</a>
-          </li>
+          {/* <li class="nav-item">
+            {/* <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>About Us</a> }
+           
+          </li> */}
+
+           <li classname="nav-item">
+            <Link to="/aboutus" className="nav-link">About Us</Link>
+            </li>
+
+
           <li class="nav-item">
             <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Resorts</a>
           </li>
@@ -32,13 +40,13 @@ export default function Navbar() {
             <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Cruise</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>IAP</a>
+            <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>IAP</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Contact US</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Contact US</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Privacy Policy</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Privacy Policy</a>
           </li>
         
         </ul>
