@@ -2,6 +2,7 @@ import React from 'react'
 import logo from "../assets/rishlogo.png"
 import { Link } from 'react-router-dom';
 import AboutUs from './AboutUs';
+
 export default function Navbar() {
   return (
    <>
@@ -44,7 +45,8 @@ export default function Navbar() {
             <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>IAP</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Contact US</a>
+            {/* <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Contact US</a> */}
+            <Link to="/contactus" className="nav-link">Contact us</Link>
           </li>
           <li className="nav-item">
             {/* <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Privacy Policy</a> */}

@@ -1,0 +1,152 @@
+/* Import a Google Font for the titles for a similar look */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+
+/* Main container for the entire section */
+.contact-section {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Header part with title */
+.contact-header {
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #555;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* The small line next to "Our Contact" */
+.subtitle::after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #2c2c2c;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* Main body with two-column layout */
+.contact-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap; /* Allows columns to stack on smaller screens */
+}
+
+.contact-info, .contact-form {
+    flex: 1; /* Each column takes up half the space */
+    min-width: 300px; /* Prevents columns from getting too narrow */
+}
+
+/* Left Column: Contact info styling */
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.info-item .icon {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.info-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Right Column: Form styling */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.required {
+    color: red;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #aaa;
+}
+
+.send-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ef4444; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #dc2626; /* Darker red on hover */
+}
+
+/* Social Media Icons styling */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #333;
+    color: white;
+}

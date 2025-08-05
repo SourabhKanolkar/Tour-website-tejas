@@ -19,8 +19,7 @@ const PrivacyPolicy = () => {
 
         <div className="para-text">
             <div className="container">
-<p className="para">
-This Site www.worldendlessvacation.com is owned and operated by world endless vacation india private limited</p>
+<p className="para"> This Site www.worldendlessvacation.com is owned and operated by world endless vacation india private limited</p>
 
 <p>This Privacy Policy applies to the activities of world endless vacation india private limited and its affiliates (referred to as “world endless vacation india private limited” in this policy).
 Because we gather certain types of information about our users, we feel you should fully understand the terms and conditions surrounding the capture and use of that information. The privacy statement discloses what information we gather and we use it
