@@ -10,7 +10,7 @@ import GalleryCTA from "./GalleryCTA";
 const AboutUs = () => {
   return (
     <>
-    <CommonBanner />
+    <CommonBanner name="About us"  />
     <div className="about-container">
       <section id='home-secound-section'>
         <div className="container">
