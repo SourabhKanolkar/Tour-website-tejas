@@ -1,3 +1,24 @@
+
+/* Ensure page scroll works on all screen sizes */
+html, body {
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* iOS smooth scroll */
+}
+
+/* Main container must grow with content */
+.about-container {
+  min-height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
 #home-section {
   padding: 140px 20px 10px 20px;
   /* padding: 100px 0px 100px 0px; */
@@ -73,3 +94,4 @@
     padding: 0px;
   }
 }
+

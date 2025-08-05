@@ -3,7 +3,7 @@ import '../css/AboutUsBanner.css';
 import Navbar from './Navbar';
 
 
-const AboutUsBanner = () => {
+const AboutUsBanner = ({name}) => {
   return (
     <>
      <Navbar/>
@@ -13,7 +13,7 @@ const AboutUsBanner = () => {
         This approach makes it easy to apply the dark overlay for text contrast.
       */}
       <div className="banner-text">
-        <h1>About Us</h1>
+        <h1> {name}</h1>
       </div>
     </section>
       

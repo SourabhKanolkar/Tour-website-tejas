@@ -47,7 +47,9 @@ export default function Navbar() {
             <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Contact US</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Privacy Policy</a>
+            {/* <a className="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Privacy Policy</a> */}
+
+             <Link to="/privacypolicy" className="nav-link">Privacy Policy</Link>
           </li>
         
         </ul>
