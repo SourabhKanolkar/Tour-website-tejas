@@ -31,7 +31,9 @@ const AboutUs = () => {
                  <h3 style={{ marginBottom: "30px" }} className='playfair-font'>About World endless vacation</h3>
                 <h3 style={{ marginBottom: "30px" }} className='playfair-font'>About Us</h3>
                 <p className='playfair-font home-secound-p'>
+                  <div className="para-text">
                   The world is changing all around us. To continue to thrive as a business over the next ten years and beyond, we must look ahead, understand the trends and forces that will shape our business in the future and move swiftly to prepare for what’s to come. We must get ready for tomorrow today. That’s what our 2020 Vision is all about. It creates a long-term destination for our business and provides us with a “Roadmap” for winning together with our partners.
+               </div>
                 </p>
               </div>
 

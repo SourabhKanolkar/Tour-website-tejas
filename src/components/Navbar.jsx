@@ -21,7 +21,8 @@ export default function Navbar() {
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Home</a>
+            {/* <a class="nav-link active" aria-current="page" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>Home</a> */}
+               <Link to="/" className="nav-link">Home</Link>
           </li>
           {/* <li class="nav-item">
             {/* <a class="nav-link" href="#" style={{fontFamily:"sans-serif",fontWeight:"500"}}>About Us</a> }
